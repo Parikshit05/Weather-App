@@ -42,21 +42,24 @@ https://openweathermap.org/api
 
 ---
 
-## ▶️ Getting Started
+## 🧪 Setup Instructions
 
-### 📌 Clone the repository
+1. **Clone the repository**
 ```bash
 git clone https://github.com/your-username/weather-app-react.git
 
+   ```
 
-### 📌 Install dependencies
+2. **Install dependencies**
 ```bash
 npm install
 
+ ```
 
-### 📌 Start the development server
+3. **Start the server**
 ```bash 
 npm start
+```
 
 ---
 
