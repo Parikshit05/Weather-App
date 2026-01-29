@@ -23,7 +23,6 @@ A simple and responsive weather application built using **React** that allows us
 - 🌍 OpenWeather API  
 - 🎯 CSS  
 
-
 ---
 
 ## ⚙️ How It Works
@@ -48,23 +47,20 @@ https://openweathermap.org/api
 ### 📌 Clone the repository
 ```bash
 git clone https://github.com/your-username/weather-app-react.git
-```
+``` 
 
-📌 Install dependencies
-
+### 📌 Install dependencies
 ```bash
 npm install
 ```
-📌 Start the development server
 
-```bash
+### 📌 Start the development server
+```bash 
 npm start
 ```
-
 ---
 
-🚧 Future Improvements
-
+## 🚧 Future Improvements
 🌍 Auto-detect user location
 
 ⏳ Add loading spinner
@@ -75,8 +71,9 @@ npm start
 
 📱 Improved mobile responsiveness
 
-📚 Learning Outcomes
+---
 
+## 📚 Learning Outcomes
 📡 Fetching and handling APIs in React
 
 🧠 State management using useState
@@ -87,12 +84,14 @@ npm start
 
 🎯 Conditional rendering & error handling
 
-🙌 Acknowledgements
+---
 
+## 🙌 Acknowledgements
 ☁️ OpenWeather for providing weather data
 
 🎨 Material UI for UI components
 
-📄 License
+---
 
+## 📄 License
 📌 This project is built for learning purposes and is free to use.
