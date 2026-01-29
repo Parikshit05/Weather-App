@@ -1,16 +1,98 @@
-# React + Vite
+# 🌦️ Weather App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive weather application built using **React** that allows users to search for any city and view real-time weather information using the **OpenWeather API**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🔍 Search weather by city name  
+- 🌡️ Displays current temperature, min/max temperature & feels-like temperature  
+- 💧 Shows humidity and weather description  
+- ⚠️ Error handling for invalid city names  
+- 🎨 Clean and modern UI using **Material UI (MUI)**  
+- ⚡ Fast and responsive React application  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ React (Functional Components & Hooks)  
+- 🟨 JavaScript (ES6+)  
+- 🎨 Material UI (MUI)  
+- 🌍 OpenWeather API  
+- 🎯 CSS  
+
+
+---
+
+## ⚙️ How It Works
+
+1️⃣ User enters a city name in the search box  
+2️⃣ App fetches real-time weather data from OpenWeather API  
+3️⃣ API response is processed and normalized  
+4️⃣ Weather details are displayed in a card layout  
+5️⃣ Proper error handling prevents crashes on invalid input  
+
+---
+
+## 🔑 API Used
+
+🌐 **OpenWeather Current Weather API**  
+https://openweathermap.org/api  
+
+---
+
+## ▶️ Getting Started
+
+### 📌 Clone the repository
+```bash
+git clone https://github.com/your-username/weather-app-react.git
+
+
+📌 Install dependencies
+
+```bash
+npm install
+
+📌 Start the development server
+
+```bash
+npm start
+
+
+---
+
+🚧 Future Improvements
+
+🌍 Auto-detect user location
+
+⏳ Add loading spinner
+
+🖼️ Dynamic weather images/icons
+
+🌙 Dark mode support
+
+📱 Improved mobile responsiveness
+
+📚 Learning Outcomes
+
+📡 Fetching and handling APIs in React
+
+🧠 State management using useState
+
+⏱️ Working with async/await
+
+🧩 Component-based architecture
+
+🎯 Conditional rendering & error handling
+
+🙌 Acknowledgements
+
+☁️ OpenWeather for providing weather data
+
+🎨 Material UI for UI components
+
+📄 License
+
+📌 This project is built for learning purposes and is free to use.
